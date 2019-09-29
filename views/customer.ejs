@@ -1,0 +1,103 @@
+<% include partials/header %>
+
+<div class="inner-page">
+    <div class="slider-item" style="background-image: url('/images/josh-nuttall-uNQ-TTg_qNY-unsplash.jpg');">
+        <div class="container">
+            <div class="row slider-text align-items-center justify-content-center">
+            <div class="col-lg-9 text-center col-sm-12 element-animate">
+                <h1 class="mb-4"><span>Path to Enhanced Cycling</span></h1>
+            </div>
+            </div>
+        </div>
+    </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mb-5 order-2">
+              <form action="rent" method="post">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="form-control ">
+                  </div>
+                  <div class="col-md-6 form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" class="form-control ">
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control ">
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" class="form-control ">
+                  </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-6 form-group">
+                          <label for="sex">Sex</label>
+                          <select id="sex" class="form-control ">
+                            <option value="male" selected>Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                          </select>
+                        </div>
+                        <div class="col-md-6 form-group">
+                          <label for="age">Age</label>
+                          <input type="date" id="age" class="form-control ">
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-6 form-group">
+                                <label for="bike">Bike</label>
+                                <select id="bike" class="form-control ">
+                                  <option value="mtb" selected>MTB Bike - 1000</option>
+                                  <option value="hybrid">Hyrid Bike - 2000</option>
+                                  <option value="road">Road Bike - 5000</option>
+                                </select>
+                              </div>
+                        <div class="col-md-6 form-group">
+                            <label for="proof">Id Proof</label>
+                            <input type="file" id="proof" class="form-control ">
+                            </div>
+                      </div>
+                      
+                      
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="submit" value="Request Now" class="btn btn-primary px-3 py-3">
+                  </div>
+            
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6 order-2 mb-5">
+              <div class="row justify-content-right">
+                <div class="col-md-8 mx-auto contact-form-contact-info">
+                  <p class="d-flex">
+                    <span class="ion-ios-location icon mr-5"></span>
+                    <span>CCD, IIM Road, Ahmedabad, 380015</span>
+                  </p>
+      
+                  <p class="d-flex">
+                    <span class="ion-ios-telephone icon mr-5"></span>
+                    <span>+91 9925356579</span>
+                  </p>
+      
+                  <p class="d-flex">
+                    <span class="ion-android-mail icon mr-5"></span>
+                    <span>info@pedalsup.com</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      </div>
+      <% include partials/footer %>
